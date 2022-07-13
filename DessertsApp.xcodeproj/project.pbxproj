@@ -13,9 +13,6 @@
 		F024BD4E287BC06200085A7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F024BD4C287BC06200085A7A /* Main.storyboard */; };
 		F024BD50287BC06400085A7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F024BD4F287BC06400085A7A /* Assets.xcassets */; };
 		F024BD53287BC06400085A7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F024BD51287BC06400085A7A /* LaunchScreen.storyboard */; };
-		F024BD5E287BC06400085A7A /* Fetch_Rewards_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F024BD5D287BC06400085A7A /* Fetch_Rewards_AppTests.swift */; };
-		F024BD68287BC06400085A7A /* Fetch_Rewards_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F024BD67287BC06400085A7A /* Fetch_Rewards_AppUITests.swift */; };
-		F024BD6A287BC06400085A7A /* Fetch_Rewards_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F024BD69287BC06400085A7A /* Fetch_Rewards_AppUITestsLaunchTests.swift */; };
 		F024BD77287BC7D300085A7A /* MealsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F024BD76287BC7D300085A7A /* MealsData.swift */; };
 		F024BDBA287BD1B000085A7A /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F024BDB9287BD1B000085A7A /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
@@ -47,10 +44,7 @@
 		F024BD52287BC06400085A7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F024BD54287BC06400085A7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F024BD59287BC06400085A7A /* DessertsAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DessertsAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F024BD5D287BC06400085A7A /* Fetch_Rewards_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch_Rewards_AppTests.swift; sourceTree = "<group>"; };
 		F024BD63287BC06400085A7A /* DessertsAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DessertsAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F024BD67287BC06400085A7A /* Fetch_Rewards_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch_Rewards_AppUITests.swift; sourceTree = "<group>"; };
-		F024BD69287BC06400085A7A /* Fetch_Rewards_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fetch_Rewards_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F024BD76287BC7D300085A7A /* MealsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealsData.swift; sourceTree = "<group>"; };
 		F024BDB9287BD1B000085A7A /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -84,8 +78,6 @@
 			isa = PBXGroup;
 			children = (
 				F024BD45287BC06200085A7A /* DessertsApp */,
-				F024BD5C287BC06400085A7A /* Fetch Rewards AppTests */,
-				F024BD66287BC06400085A7A /* Fetch Rewards AppUITests */,
 				F024BD44287BC06200085A7A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -113,23 +105,6 @@
 				F024BD51287BC06400085A7A /* LaunchScreen.storyboard */,
 			);
 			path = DessertsApp;
-			sourceTree = "<group>";
-		};
-		F024BD5C287BC06400085A7A /* Fetch Rewards AppTests */ = {
-			isa = PBXGroup;
-			children = (
-				F024BD5D287BC06400085A7A /* Fetch_Rewards_AppTests.swift */,
-			);
-			path = "Fetch Rewards AppTests";
-			sourceTree = "<group>";
-		};
-		F024BD66287BC06400085A7A /* Fetch Rewards AppUITests */ = {
-			isa = PBXGroup;
-			children = (
-				F024BD67287BC06400085A7A /* Fetch_Rewards_AppUITests.swift */,
-				F024BD69287BC06400085A7A /* Fetch_Rewards_AppUITestsLaunchTests.swift */,
-			);
-			path = "Fetch Rewards AppUITests";
 			sourceTree = "<group>";
 		};
 		F024BD78287BC8E200085A7A /* Model */ = {
@@ -300,7 +275,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F024BD5E287BC06400085A7A /* Fetch_Rewards_AppTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +282,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F024BD6A287BC06400085A7A /* Fetch_Rewards_AppUITestsLaunchTests.swift in Sources */,
-				F024BD68287BC06400085A7A /* Fetch_Rewards_AppUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

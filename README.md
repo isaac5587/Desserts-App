@@ -1,4 +1,4 @@
-# DessertsApp
+# Desserts App
 A small tableView app that displays a menu to view some of the most popular Desserts with instructions and ingredients. 
 
 

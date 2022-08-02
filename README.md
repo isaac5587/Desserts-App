@@ -1,5 +1,5 @@
 # Desserts App
-A small tableView app that displays a menu to view some of the most popular Desserts with instructions and ingredients. ✅
+A small tableView app and API that displays a menu of some of the most popular Desserts with instructions and ingredients on how to make them. ✅
 
 <p align = "center">
 <img src= "https://user-images.githubusercontent.com/24784219/181685535-07a1fbea-a980-45aa-9355-45da48f96ed3.jpeg" width = "248" height = "537"/>
